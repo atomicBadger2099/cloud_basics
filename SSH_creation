@@ -1,0 +1,29 @@
+SSH NOTES
+by Dwayne Brock
+1-19-2025
+
+
+SSH is a way of maintaining signin security using encrypted public and private key pairs.
+The public key pair can always be shown. The private key pair may never be revealed or it 
+will break the security of the key pair.
+
+Be careful where you put backups of keys.
+Remember that once a key is in place, it now controls the signin of a credential.
+If you mess up the keys, administrative help is needed one step up to change it.
+
+
+key types:
+	RSA (most common)
+	ecdsa (compact)
+	Ed25519 (most modern - performant in use)
+
+
+KEY GENERATION COMMANDS:
+	powershell command for generating a RSA key: ssh-keygen -t rsa -b 4096 
+	linux command for generating a RSA key: ssh-keygen -t rsa -b 4096
+	powershell command for generating a ecdsa key: ssh-keygen -t ecdsa
+	linux command for generating a ecdsa key: ssh-keygen -t ecdsa
+	powershell command for generating a Ed25519 key: ssh-keygen -t ed25519 -C "your_comment_here"
+	linux command for generating a Ed25519 key: ssh-keygen -t ed25519 -C "your_comment_here"
+
+Name your files accordingly so they do not save over top of other keys and accidentally destroy them.
