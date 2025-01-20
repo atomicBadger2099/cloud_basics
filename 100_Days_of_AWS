@@ -1,0 +1,230 @@
+## **100 AWS Practice Projects from Beginner to Intermediate**
+
+### **Beginner Level (1–30)**
+1. **Set up an AWS Free Tier Account**  
+   Familiarize yourself with the AWS Management Console and available free services.
+2. **Launch an EC2 Instance**  
+   Deploy a simple Linux server using Amazon EC2.
+3. **Create an S3 Bucket**  
+   Store and retrieve files in Amazon S3.
+4. **Enable Versioning on an S3 Bucket**  
+   Track changes to objects stored in an S3 bucket.
+5. **Set Up an IAM User with Limited Permissions**  
+   Create an IAM user and define specific access policies.
+6. **Configure a Static Website on S3**  
+   Host a basic HTML website using S3.
+7. **Use AWS CLI to Interact with S3**  
+   Practice creating, listing, and deleting buckets and objects via CLI.
+8. **Set Up a Budget in AWS Billing**  
+   Track your AWS usage and costs.
+9. **Use CloudWatch to Monitor EC2 Metrics**  
+   Set up basic monitoring for your EC2 instance.
+10. **Deploy an RDS Instance**  
+    Create a managed MySQL or PostgreSQL database.
+11. **Create a Lambda Function**  
+    Write a simple Lambda function to process data.
+12. **Automate S3 Backups with Lifecycle Policies**  
+    Manage object lifecycle and automate deletions.
+13. **Set Up a CloudFront Distribution**  
+    Distribute static content globally using CloudFront.
+14. **Create a Security Group for EC2**  
+    Set up basic inbound and outbound rules.
+15. **Launch an EC2 Instance Using a Custom AMI**  
+    Create and use an Amazon Machine Image (AMI).
+16. **Set Up Multi-Factor Authentication (MFA) for IAM Users**  
+    Enhance security for your AWS account.
+17. **Deploy a Simple Docker Container on ECS (Elastic Container Service)**  
+    Use Fargate for a serverless container deployment.
+18. **Use DynamoDB to Store Key-Value Pairs**  
+    Create a NoSQL table and interact with it.
+19. **Configure Route 53 for Domain Name Management**  
+    Map a custom domain to your static website or EC2 instance.
+20. **Set Up Auto Scaling for EC2 Instances**  
+    Automate scaling based on workload demand.
+21. **Encrypt S3 Objects Using SSE-S3**  
+    Use server-side encryption for S3 objects.
+22. **Implement SNS Notifications**  
+    Send a simple email notification using Amazon Simple Notification Service.
+23. **Set Up a VPC with Public and Private Subnets**  
+    Learn basic Virtual Private Cloud (VPC) configuration.
+24. **Launch a Lightsail Instance**  
+    Deploy a simple web app with Lightsail.
+25. **Backup EC2 Instances Using Snapshots**  
+    Automate EC2 volume backups.
+26. **Write and Deploy a Python Script Using AWS SDK (Boto3)**  
+    Automate tasks such as S3 uploads using Boto3.
+27. **Use AWS Systems Manager Parameter Store**  
+    Store and retrieve configuration data securely.
+28. **Create an S3 Bucket Policy**  
+    Define access control policies for an S3 bucket.
+29. **Deploy a Simple API Using API Gateway**  
+    Use API Gateway to serve a basic REST API.
+30. **Set Up a CloudTrail to Track AWS Activities**  
+    Monitor AWS account activities.
+
+---
+
+### **Intermediate Level (31–70)**
+31. **Launch a Multi-Tier Architecture Using Elastic Beanstalk**  
+    Deploy an application with a web server and database tier.
+32. **Automate Resource Deployment Using CloudFormation**  
+    Create a simple stack with an EC2 instance and S3 bucket.
+33. **Configure an Application Load Balancer**  
+    Distribute traffic across multiple EC2 instances.
+34. **Implement Cross-Region Replication for S3**  
+    Set up automatic replication of objects across regions.
+35. **Integrate Lambda with DynamoDB Streams**  
+    Process real-time updates in DynamoDB.
+36. **Use Kinesis Data Streams for Real-Time Data Processing**  
+    Ingest and process streaming data.
+37. **Configure AWS Config Rules**  
+    Monitor and enforce compliance of AWS resources.
+38. **Host a WordPress Site Using RDS and EC2**  
+    Set up a scalable WordPress site.
+39. **Encrypt RDS Instances Using KMS**  
+    Implement encryption for a database instance.
+40. **Deploy a Serverless Web Application**  
+    Combine S3, API Gateway, Lambda, and DynamoDB.
+41. **Create a CI/CD Pipeline Using CodePipeline**  
+    Automate deployments using CodePipeline and CodeBuild.
+42. **Set Up S3 Event Notifications**  
+    Trigger a Lambda function on S3 events.
+43. **Create a Private Hosted Zone in Route 53**  
+    Manage DNS for internal resources in your VPC.
+44. **Integrate CloudWatch Alarms with SNS**  
+    Set up alerts for resource metrics.
+45. **Enable VPC Flow Logs**  
+    Monitor traffic flowing to and from your VPC.
+46. **Deploy a Kubernetes Cluster with EKS (Elastic Kubernetes Service)**  
+    Manage a containerized application using Kubernetes.
+47. **Implement Elastic Transcoder for Video Processing**  
+    Automate video transcoding workflows.
+48. **Set Up Amazon S3 Glacier for Data Archival**  
+    Manage cold storage for rarely accessed data.
+49. **Use Step Functions for Workflow Automation**  
+    Create a serverless workflow for task automation.
+50. **Launch an ElastiCache Cluster**  
+    Use Redis or Memcached for caching.
+51. **Secure EC2 Instances with AWS Systems Manager Session Manager**  
+    Connect securely without an SSH key.
+52. **Set Up AWS WAF (Web Application Firewall)**  
+    Protect a web application against common threats.
+53. **Implement S3 Access Logs**  
+    Track access requests to your S3 bucket.
+54. **Use AWS Glue for ETL Jobs**  
+    Extract, transform, and load data.
+55. **Enable S3 Transfer Acceleration**  
+    Speed up file transfers to S3.
+56. **Launch a Real-Time Chat App Using AppSync**  
+    Use GraphQL APIs for a serverless app.
+57. **Integrate AWS Cognito for Authentication**  
+    Add user sign-in and management features.
+58. **Set Up AWS Organizations and SCPs**  
+    Manage multiple accounts with service control policies.
+59. **Deploy a Highly Available Database with Aurora**  
+    Use Aurora’s multi-region capabilities.
+60. **Migrate a Database to RDS Using DMS (Database Migration Service)**  
+    Test database migration workflows.
+61. **Integrate CloudFront with Lambda@Edge**  
+    Customize content delivery at the edge.
+62. **Build an IoT Solution Using AWS IoT Core**  
+    Connect and manage IoT devices.
+63. **Set Up AWS Batch for Batch Processing**  
+    Run large-scale batch jobs.
+64. **Use ElasticSearch Service for Log Analysis**  
+    Analyze logs and search data efficiently.
+65. **Implement a Disaster Recovery Plan Using AWS**  
+    Simulate a recovery setup with backup regions.
+66. **Deploy a Scalable Video Streaming App with Media Services**  
+    Use AWS Elemental for video streaming.
+67. **Integrate AWS SSO for Centralized Access Management**  
+    Use AWS Single Sign-On for centralized user management.
+68. **Set Up EFS for EC2 Instances**  
+    Share a file system across multiple instances.
+69. **Monitor Application Logs with CloudWatch Logs Insights**  
+    Query and analyze logs effectively.
+70. **Secure Network Communication with PrivateLink**  
+    Use VPC endpoints to connect to services securely.
+
+---
+
+### **Advanced Intermediate Level (71–100)**
+71. **Automate Multi-Region Deployments Using CodeDeploy**  
+    Streamline deployments across regions.
+72. **Create a Data Lake with AWS Lake Formation**  
+    Manage and secure large data sets.
+73. **Set Up a Global Accelerator**  
+    Improve application performance across the globe.
+74. **Deploy a Scalable Microservices Architecture**  
+    Use ECS or EKS to manage multiple services.
+75. **Build a Machine Learning Model Using SageMaker**  
+    Train and deploy a model.
+76. **Use AWS Backup for Automated Backup Management**  
+    Centralize backups across services.
+77. **Set Up AWS Transit Gateway**  
+    Simplify VPC interconnectivity.
+78. **Configure Elastic File System (EFS) with Encryption**  
+    Secure file shares for EC2 instances.
+79. **Deploy a Real-Time Analytics App Using EMR and Spark**  
+    Analyze big data in real-time.
+80. **Implement AWS Shield Advanced for DDoS Protection**  
+    Protect critical resources from DDoS attacks.
+81. **Use Athena to Query S3 Data**  
+    Query data in S3 without loading it into a database.
+82. **Build a Serverless Data Pipeline**  
+    Combine Glue, Lambda, and S3.
+83. **Set Up AWS Secrets Manager for Credentials Management**  
+    Securely store and rotate secrets.
+84. **Deploy a Progressive Web App with Amplify**  
+    Build and deploy a modern web app.
+85. **Set Up VPN Connections Using AWS Site-to-Site VPN**  
+    Connect on-premise and cloud environments.
+86. **Implement Real-Time Fraud Detection with Kinesis and Lambda**  
+    Use streaming data for fraud detection.
+87. **Configure Cost Optimization with AWS Trusted Advisor**  
+    Identify areas to optimize costs.
+88. **Enable Encryption in Transit with ACM**  
+    Use SSL/TLS certificates.
+89. **Automate Testing with AWS CodeBuild and CodePipeline**  
+    Test code during CI/CD processes.
+90. **Implement AI/ML APIs (e.g., Rekognition, Polly)**  
+    Integrate AI features like image recognition or text-to-speech.
+91. **Launch a Highly Available App Across Multiple Regions**  
+    Use Route 53 and Load Balancers.
+92. **Use Amazon MQ for Message Brokering**  
+    Integrate applications using a managed message broker.
+93. **Enable Event-Driven Architectures with EventBridge**  
+    Trigger actions based on events.
+94. **Optimize Query Performance in Redshift**  
+    Tune queries for a data warehouse.
+95. **Secure S3 Buckets Using AWS Macie**  
+    Identify sensitive data in S3.
+96. **Migrate On-Premise Apps to AWS Using AWS Migration Hub**  
+    Plan and execute migrations.
+97. **Use Glue Data Catalog with Athena and Redshift**  
+    Create a unified metadata repository.
+98. **Implement Stateful Microservices with Step Functions**  
+    Add orchestration to microservices.
+99. **Set Up Hybrid Cloud Architecture**  
+    Use AWS Outposts for hybrid workloads.
+100. **Build a Secure Blockchain App with Amazon Managed Blockchain**  
+    Explore blockchain solutions.
+
+---
+
+### **Recommended Resources**
+
+#### **Books:**
+1. **"AWS Certified Solutions Architect Official Study Guide"** by Ben Piper & David Clinton
+2. **"AWS Certified Developer Official Study Guide"** by Nick Alteen et al.
+3. **"Cloud Computing with AWS"** by Mohamed A. M. Irfan
+4. **"Mastering AWS Lambda"** by Yohan Wadia
+5. **"AWS for Solutions Architects"** by Alberto Artasanchez
+
+#### **Online Resources:**
+- [AWS Documentation](https://aws.amazon.com/documentation/)
+- [AWS Training and Certification](https://aws.amazon.com/training/)
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [FreeCodeCamp AWS Tutorials](https://www.freecodecamp.org/)
+
+Let me know which projects you’d like more details on!
