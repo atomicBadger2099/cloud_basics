@@ -1,0 +1,20 @@
+BASIC AWS CLI COMMANDS:
+
+aws configure - configures use of CLI 
+	(will require the use of an access key set associated with an IAM ID, and a region code)
+
+aws iam list-users - lists iam user identities associated with the current CLI
+
+
+Basic S3 commands:
+
+creating a S3 bucket via CLI:
+	aws s3api create-bucket --bucket <bucket-name> --region <region> --create-bucket-configuration LocationConstraint=<region>
+	ex: aws s3api create-bucket --bucket palisade-1 --region us-east-1
+
+deleting a S3 bucket via CLI:
+	aws s3api delete-bucket --bucket <bucket-name> --region <region>
+	ex: aws s3api delete-bucket --bucket palisade-1 --region us-east-1
+
+listing current S3 buckets using AWS CLI:
+	aws s3 ls 
